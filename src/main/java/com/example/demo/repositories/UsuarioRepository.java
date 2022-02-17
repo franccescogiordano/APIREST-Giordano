@@ -12,4 +12,6 @@ public interface UsuarioRepository extends CrudRepository<UsuarioModel,Long> {
 //que tipo de dato traer
 
 public abstract ArrayList<UsuarioModel> findByPrioridad(Integer prioridad);
+public abstract ArrayList<UsuarioModel> findByNombre(String nombre);
+
 }
